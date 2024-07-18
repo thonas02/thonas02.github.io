@@ -1,0 +1,123 @@
+main {
+    margin: 20px;
+    margin-top: 80px;
+    margin-bottom: 124px;
+    height: 100%;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-container{
+    display: grid;
+    width: 60em;
+}
+
+.cv-wrapper{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: #ED7D31 2px solid;
+}
+
+.cv-header{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+}
+
+hr{
+    border: 0;
+    border-top: 2px rgb(102, 189, 218) solid;
+    width: 100%;
+}
+
+.hr-2x{
+    border: 0;
+    border-top: 4px #ED7D31 solid;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.info-top{
+    display: flex;
+}
+
+.info{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.cv-body{
+    background-color: white;
+    padding: 20px;
+}
+
+.info-body{
+    background-color: white;
+    color: black;
+}
+
+.h1-title{
+    margin: 0;
+}
+
+.content-text{
+    font-size: 17px;
+}
+
+table{
+    width: 100%;
+    border: 1px black solid;
+}
+
+.thead{
+    border: red 1px solid;
+    background-color: lightblue;
+}
+
+.tbody{
+    background-color: lightgray;
+    height: 3em;
+    justify-content: center;
+    text-align: center;
+}
+
+.post-cv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px red solid;
+}
+
+.vl {
+    width: 50%;
+    border-right: 2px solid #ED7D31;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.download-cv{
+text-align: center;
+}
+
+.svg-download{
+    margin: 50px;
+    height: 4em;
+}
+
+.texto{
+    font-size: 20px;
+    text-align: center;
+}
+
+.bt-download{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
