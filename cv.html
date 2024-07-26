@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="icon" href="resources/imgs/T.png">
-    <link rel="stylesheet" href="resources/styles/css/universal.css">
+    <link rel="stylesheet" href="resources/styles/css/main.css">
     <link rel="stylesheet" href="resources/styles/css/cv.css">
     <link rel="stylesheet" href="resources/styles/animations/cv.css">
     <link rel="stylesheet" href="resources/styles/animations/socials.css">
@@ -28,6 +28,11 @@
     <main>
         <div class="cv">
             <div class="cv-container">
+                <div class="cvinfo">
+                    <h1>Curriculum Vitae</h1>
+                    <p>O currículo não apresenta todas as informações (contactos pessoais, nome completo, etc) por motivos de segurança
+                        .<br></p>
+                </div>
                 <div class="cv-wrapper">
                     <div class="cv-header">
                         <h1>&emsp;Tomás Martins</h1>
@@ -36,10 +41,10 @@
                             <div class="info"><span><b>Data de Nascimento:&nbsp;</b>26/07/2002&emsp;&emsp;|&emsp;&emsp;
                                     <b>Nacionalidade:&nbsp;</b>Portuguesa&emsp;&emsp;|&emsp;&emsp;<b>Sexo:&nbsp;</b>Masculino<br><br>
                                     <b>Endereço de email:&nbsp;</b><u>tomasmartins2002@hotmail.com</u><br>
-                                    <b>LinkedIn:&nbsp;</b><a
-                                        href="https://www.linkedin.com/in/tomas-m-m/" target="_blank"><u>www.linkedin.com/in/tomas-m-m/</u></a>
-                                    <br><b>Github:&nbsp;</b><a
-                                        href="https://github.com/thonas02" target="_blank"><u>www.github.com/thonas02</u></a></span>
+                                    <b>LinkedIn:&nbsp;</b><a href="https://www.linkedin.com/in/tomas-m-m/"
+                                        target="_blank"><u>www.linkedin.com/in/tomas-m-m/</u></a>
+                                    <br><b>Github:&nbsp;</b><a href="https://github.com/thonas02"
+                                        target="_blank"><u>www.github.com/thonas02</u></a></span>
                             </div>
                         </div>
                     </div>
@@ -111,7 +116,7 @@
                                         <th>Escrita</th>
                                     </tr>
                                     <tr class="tbody">
-                                        <th>Inglês</th>
+                                        <th>Inglês*</th>
                                         <td>C1</td>
                                         <td>C1</td>
                                         <td>C1</td>
@@ -138,6 +143,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="post-cv">
+                        <span>
+                            *À base da ferramenta de autoavaliação do Europass. Utiliza o <u><a
+                                    href="https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid"
+                                    target="_blank">Quadro Europeu Comum de Referência para as Línguas (QECR)</a></u>.
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,26 +158,42 @@
             <div class="vl"></div>
         </div>
         <div class="download-cv">
-            <h1>Clique em baixo para<br>fazer download do CV</h1>
-            <a href="resources/files/CV_4.pdf" download class="bt-download">
-                <div class="button" data-tooltip="Size: 62,3KB">
-                    <div class="button-wrapper">
-                      <div class="text">Download</div>
-                        <span class="icon">
-                          <svg class="svg-download" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"></path></svg>
-                        </span>
-                      </div>
-                    </div>
-            </a>
+            <div class="download-cv-parent">
+                <div class="download-text">
+                    <h1>Download do CV</h1>
+                </div>
+                <div class="button-parent">
+                    <a href="resources/files/CV_4.pdf" download class="bt-download">
+                        <div class="button" data-tooltip="Size: 62,3KB">
+                            <div class="button-wrapper">
+                                <div class="text">Download</div>
+                                <span class="icon">
+                                    <svg class="svg-download" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24">
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
         </div>
         <div id="vl-parent">
             <div></div>
             <div class="vl"></div>
         </div>
-        <div class="bot-texto">
-            <p class="texto">Sinta-se livre para entrar em contacto comigo<br>
-                para qualquer esclarecimento, informação, e feedback!<br><br></p>
-            <p class="texto"><a href="contact.html"><u>CONTACTOS&#8599;</u></a></p>
+        <div class="bottxt-parent">
+            <div class="bottxt-child">
+                <p class="texto">Sinta-se livre para entrar em contacto comigo<br>
+                    para qualquer esclarecimento, informação, e feedback!<br><br></p>
+                <p class="txt_contacts"><a href="contact.html"><u>CONTACTOS&#8599;</u></a></p>
+            </div>
         </div>
     </main>
     <footer>

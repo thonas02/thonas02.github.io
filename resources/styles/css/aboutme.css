@@ -13,13 +13,26 @@ main {
 }
 
 #aboutme-wrapper {
+    width: 100%;
     text-align: center;
     align-content: center;
     justify-content: center;
 }
 
+.intro-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.intro-child{
+    width: 40%;
+    background-color: rgb(19, 19, 19);
+    padding: 2em;
+}
+
 .intro-text {
     font-size: 20px;
+    color: white;
 }
 
 #hobbies-grid {

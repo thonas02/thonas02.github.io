@@ -56,14 +56,13 @@ body {
 }
 
 a {
-    color: gray;
+    color: white;
     text-decoration: none;
-    transition: 300ms;
+    transition: 200ms;
 }
 
 a:hover{
-    color: white;
-    text-decoration: underline;
+    color: #ED7D31;
 }
 
 footer {

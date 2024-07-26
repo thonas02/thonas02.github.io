@@ -5,37 +5,45 @@ main {
     height: 100%;
 }
 
-.cv{
+.cv {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cv-container{
+.cv-container {
     display: grid;
     width: 60em;
 }
 
-.cv-wrapper{
+.cvinfo {
+    padding: 1em;
+    background-color: rgb(19, 19, 19);
+    margin-bottom: 10px;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: #ED7D31 2px solid;
+    margin-bottom: 0;
 }
 
-.cv-header{
+.cv-wrapper {
+    margin: 30px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv-header {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: #161616;
+    background-color: rgb(19, 19, 19);
 }
 
-hr{
+hr {
     border: 0;
-    border-top: 2px rgb(102, 189, 218) solid;
+    border-top: 2px #ED7D31 solid;
     width: 100%;
 }
 
-.hr-2x{
+.hr-2x {
     border: 0;
     border-top: 4px #ED7D31 solid;
     width: 100%;
@@ -43,55 +51,56 @@ hr{
     margin-top: 10px;
 }
 
-.info-top{
+.info-top {
     display: flex;
 }
 
-.info{
+.info {
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.cv-body{
+.cv-body {
     background-color: white;
     padding: 20px;
 }
 
-.info-body{
+.info-body {
     background-color: white;
     color: black;
 }
 
-.h1-title{
+.h1-title {
     margin: 0;
 }
 
-.content-text{
+.content-text {
     font-size: 17px;
 }
 
-table{
+table {
     width: 100%;
     border: 1px black solid;
 }
 
-.thead{
-    border: red 1px solid;
+.thead {
     background-color: lightblue;
 }
 
-.tbody{
+.tbody {
     background-color: lightgray;
     height: 3em;
     justify-content: center;
     text-align: center;
 }
 
-.post-cv{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 5px red solid;
+.post-cv {
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+    border-top: #ED7D31 2px solid;
+    background-color: rgb(19, 19, 19);
 }
 
 .vl {
@@ -102,22 +111,54 @@ table{
     margin-bottom: 50px;
 }
 
-.download-cv{
-text-align: center;
+.download-cv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
-.svg-download{
+.download-cv-parent{
+    vertical-align: middle;
+    width: 40em;
+    height: 10em;
+    background-color: rgb(19, 19, 19);
+}
+
+.download-text{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.svg-download {
     margin: 50px;
     height: 4em;
 }
 
-.texto{
+.texto {
     font-size: 20px;
     text-align: center;
 }
 
-.bt-download{
+.txt_contacts{
+    text-align: center;
+}
+
+.bottxt-parent{
     display: flex;
-    margin-top: 50px;
     justify-content: center;
+    font-size: 20px;
+}
+
+.bottxt-child{
+    width: 40em;
+    height: 10em;
+    padding-top: 3em;
+    background-color: rgb(19, 19, 19);
 }
