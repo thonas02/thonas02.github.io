@@ -162,3 +162,14 @@ table {
     padding-top: 3em;
     background-color: rgb(19, 19, 19);
 }
+
+#cv-email{
+    background-color: black;
+    color: black;
+    transition: 1000ms;
+}
+
+#cv-email:hover{
+    background-color: transparent;
+    color: white;
+}

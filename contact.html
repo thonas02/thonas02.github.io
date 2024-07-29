@@ -11,29 +11,7 @@
     <link rel="stylesheet" href="resources/styles/animations/contacts.css">
     <link rel="stylesheet" href="resources/styles/animations/socials.css">
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // Inicializando o EmailJS com a chave pública
-            emailjs.init('9XuDPRWZbNU0Idclm');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                // IDs do serviço e template configurados no painel do EmailJS
-                emailjs.sendForm('service_l9gqivf', 'contact_form', this)
-                    .then(function () {
-                        console.log('SUCCESS!');
-                        alert('Mensagem enviada com sucesso!');
-                    }, function (error) {
-                        console.log('FAILED...', error);
-                        alert('Falha no envio da mensagem. Por favor, tente novamente.');
-                    });
-            });
-        }
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body>
@@ -96,16 +74,18 @@
                 </div>
                 <div class="email-content">
                     <div class="email-left-content">
-                        <form id="contact-form" method="POST">
-                            <input type="hidden" name="contact_number">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="9f03f1ba-2d4c-4ace-a5f8-125d991e6548">
                             <label for="name">Nome:</label><br>
-                            <input type="text" id="name" name="user_name" required><br><br>
+                            <input type="text" name="name" required><br><br>
                             <label for="email">Email:</label><br>
-                            <input type="email" id="email" name="user_email" required><br><br>
+                            <input type="email" name="email" required><br><br>
                             <label for="message">Mensagem</label><br>
-                            <textarea id="message" name="message" required></textarea><br><br>
-                            <input type="submit" value="Enviar">
+                            <textarea name="message" required></textarea></textarea><br><br>
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                            <button type="submit">Enviar</button>
                         </form>
+                        <script src="resources/javaScript/web3forms-script.js"></script>
                     </div>
                     <h1>ou</h1>
                     <div class="email-right-content">
