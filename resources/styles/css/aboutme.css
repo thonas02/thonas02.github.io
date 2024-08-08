@@ -1,110 +1,86 @@
 main {
-    margin-top: 110px;
+    margin-top: 7em;
+    margin-bottom: 1em;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.vl {
-    width: 50%;
-    border-right: 2px solid #ED7D31;
-    height: 250px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#aboutme-wrapper {
-    width: 100%;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.intro-wrapper{
+#intro-wrapper,
+#skills-wrapper,
+#lang-wrapper,
+#hobbies-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.intro-child{
-    width: 40%;
+#parent-aboutme {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    column-gap: 10px;
+
+}
+
+#left, #right {
+    width: 100%;
+    padding: 1em;
+    padding-left: 2em;
     background-color: rgb(19, 19, 19);
-    padding: 2em;
+    border-left: 4px solid #ED7D31;
 }
 
-.intro-text {
-    font-size: 20px;
-    color: white;
+#top-left p {
+    font-size: 1.2em;
+}
+
+#mid-left {
+    align-content: center;
 }
 
 #hobbies-grid {
-    display: flex;
-    column-gap: 50px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 30em;
+    row-gap: 1em;
+    column-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.hobby {
+    background-color: transparent;
+    color: white;
+    height: 8em;
+    width: 8em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 100%;
+    border: 2px #ED7D31 solid;
 }
 
 svg {
-    width: 5em;
+    width: 3.5em;
 }
 
-.hobbies {
-    display: flex;
-    background-color: rgb(19, 19, 19);
-    height: 15em;
-    width: 15em;
+/* SKILLS AND LANGUAGES */
 
-    align-items: center;
-    justify-content: center;
-}
-
-.skills-wrapper{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5em;
-}
-
-.skills-text{
+#skills-container,
+#lang-container {
+    color: white;
+    width: 70%;
     background-color: rgb(19, 19, 19);
     padding: 2em;
-    color: white;
-    width: 25em;
+    border: #ED7D31 2px solid;
+    border-radius: 10px;
 }
 
-.skills-container {
-    background-color: rgb(19, 19, 19);
-    color: white;
-    padding: 2em;
-    width: 30%;
-    padding-top: 4em;
-}
-
-.lang-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5em;
-}
-
-.lang-text {
-    background-color: rgb(19, 19, 19);
-    padding: 2em;
-    color: white;
-    width: 25em;
-}
-
-.lang-container {
-    background-color: rgb(19, 19, 19);
-    color: white;
-    width: 30%;
-    padding: 2em;
-    padding-top: 4em;
-}
-
+/* Progression bars styling */
 .progress-div {
-    margin-bottom: 2em;
     text-align: left;
     position: relative;
-}
-
-.lang-label {
-    padding-left: 30px;
 }
 
 progress {
@@ -128,3 +104,22 @@ progress::-webkit-progress-value {
     background-color: #ED7D31;
 }
 
+
+/* RIGHT SIDE OF ABOUT ME PAGE */
+
+#experiences-wrapper, #education-wrapper{
+    padding-left: 2em;
+}
+
+#experiences h2, #education h2{
+    text-decoration: underline #ED7D31;
+}
+
+#final-grade{
+    text-decoration: underline #ED7D31 2px;
+}
+
+.experiences, .educations{
+    border-bottom: 2px solid #ED7D31;
+    margin-right: 4em;
+}

@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #202020;
+    min-height: 100vh;
 }
 
 @font-face {
