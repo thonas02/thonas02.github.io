@@ -35,9 +35,11 @@
 img{
     width: 17em;
     border-radius: 15px;
-    transition: 0.2s;
+    transition: 0.3s;
+    border: 5px transparent solid;
 }
 
 img:hover{
     transform: scale(1.07);
+    border: 5px #ED7D31 solid;
 }
