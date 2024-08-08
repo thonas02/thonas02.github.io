@@ -8,6 +8,10 @@ body {
     min-height: 100vh;
 }
 
+main{
+    margin-top: 7em;
+}
+
 @font-face {
     font-family: sourcecodepro;
     src: url('fonts/SourceCodePro-VariableFont_wght.ttf'),
@@ -54,6 +58,10 @@ body {
     display: flex;
     width: 100%;
     justify-content: right;
+}
+
+.menu-right svg{
+    width: 1em;
 }
 
 a {

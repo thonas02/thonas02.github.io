@@ -12,11 +12,11 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomás Martins</title>
+    <title>Música</title>
     <link rel="icon" href="resources/imgs/T.png">
     <link rel="stylesheet" href="resources/styles/css/main.css">
-    <link rel="stylesheet" href="resources/styles/css/index.css">
     <link rel="stylesheet" href="resources/styles/animations/socials.css">
+    <link rel="stylesheet" href="resources/styles/css/music.css">
 </head>
 
 <body>
@@ -30,8 +30,8 @@
             <div class="menu-right">
                 <div id="music">
                     <a href="music.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                            class="bi bi-music-note" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-music-note"
+                            viewBox="0 0 16 16">
                             <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2" />
                             <path fill-rule="evenodd" d="M9 3v10H8V3z" />
                             <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5z" />
@@ -42,13 +42,90 @@
         </div>
     </header>
     <main>
-        <div class="intro-parentDiv">
-            <div>
-                <div class="intro-childDiv-left">
-                    <p class="txtIntro-1">Olá!</p>
-                    <h1 class="txtName">Tomás<br>Martins</h1>
-                    <p class="txtIntro-2">&lt Programador e desenvolvedor web iniciante /&gt</p>
+        <div id="overall-wrapper">
+            <div id="left">
+                <h1>Músicas Favoritas</h1>
+                <div id="music-wrapper">
+                    <div id="music-grid">
+                        <div id="music1" class="music-item">
+                            <a href="https://open.spotify.com/track/7BgyWwbbybJr2IbQoI1gzH?si=720da80dc70e4ced"
+                                target="_blank">
+                                <img src="resources/imgs/steviedoesntwonder.jpeg">
+                            </a>
+                        </div>
+                        <div id="music2" class="music-item">
+                            <a href="https://open.spotify.com/track/0fBSs3fRoh1yJcne77fdu9?si=50a38becffc44eae"
+                                target="_blank">
+                                <img src="resources/imgs/borntodie.jpeg">
+                            </a>
+                        </div>
+                        <div id="music3" class="music-item">
+                            <a href="https://open.spotify.com/track/5Se32hEA9raeboZerywxka?si=292020d6718d4be8"
+                                target="_blank">
+                                <img src="resources/imgs/youbrokemyheart.jpg">
+                            </a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div id="mid">
+                <h1>Álbuns Favoritos</h1>
+                <div id="album-wrapper">
+                    <div id="album-grid">
+                        <div id="album1" class="album-item">
+                            <a href="https://open.spotify.com/album/4yUqNSK6jMi7Y6eWl03U5r?si=vmSWv60bQRyxpcBsczK7tw"
+                                target="_blank">
+                                <img src="resources/imgs/bandostone.png">
+                            </a>
+                        </div>
+                        <div id="album2" class="album-item">
+                            <a href="https://open.spotify.com/album/20r762YmB5HeofjMCiPMLv?si=AtRuQu-UStS81eHSydD5fQ"
+                                target="_blank">
+                                <img src="resources/imgs/mbdtf.jpeg">
+                            </a>
+                        </div>
+                        <div id="album3" class="album-item">
+                            <a href="https://open.spotify.com/album/7txGsnDSqVMoRl6RQ9XyZP?si=o_5cem3rR9KJVoHKl3e9Rg"
+                                target="_blank">
+                                <img src="resources/imgs/heroesandvillains.jpeg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <h1>Artistas Favoritos</h1>
+                <div id="artists-wrapper">
+                    <div id="artists-grid">
+                        <div id="artist1" class="artists-item">
+                            <a href="https://open.spotify.com/artist/0Y6dVaC9DZtPNH4591M42W?si=wYx9zTmzTUCOq0k4H7UrcQ"
+                                target="_blank">
+                                <img src="resources/imgs/tvgirl.jpg">
+                            </a>
+                        </div>
+                        <div id="artist2" class="artists-item">
+                            <a href="https://open.spotify.com/intl-pt/artist/5K4W6rqBFWDnAN6FQUkS6x?si=L40BG33WRvapJAPluvgCcw"
+                                target="_blank">
+                                <img src="resources/imgs/kanyewest.jpg">
+                            </a>
+                        </div>
+                        <div id="artist3" class="artists-item">
+                            <a href="https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM?si=GmZu2H-qRpSRkQqzN5m5eQ"
+                                target="_blank">
+                                <img src="resources/imgs/macdemarco.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-div">
+            <div class="footer-left">
+                <div class="footer-madeBy">Feito por<br>Tomás Martins</div>
+            </div>
+            <div class="footer-right">
                 <div class="contacts">
                     <ul class="example-2">
                         <li class="icon-content">
@@ -104,15 +181,8 @@
                     </ul>
                 </div>
             </div>
-
-
-            <div class="intro-childDiv-right">
-                <div>
-                    <img src="resources/imgs/blank_pfp.png" width="400em" height="auto">
-                </div>
-            </div>
         </div>
-    </main>
+    </footer>
 </body>
 
 </html>
